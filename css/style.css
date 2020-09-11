@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*NavStart*/
+nav {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    line-height: 40px;
+    background-color: #2C8ACE;
+}
+
+.brand {
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+}
+
+.menu > li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu > li:nth-child(7) {
+    margin: auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 35%;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*Nav End*/
+/*Slider Secrion Start*/
+#slider {
+    width: 100%;
+    height: 500px;
+    background-color: #2C8ACE;
+}
+
+.slider_content {
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 20px;
+}
+
+.slider_content > h2 {
+    font-size: 4rem;
+    padding: 20px;
+    color: #FFFFFF;
+    margin-bottom: 2%;
+}
+
+.slider_content > button {
+    padding: 1.5rem;
+    border-radius: 40%;
+    border-color: transparent;
+}
+
+.slider_content > button > a {
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+/*Slider Section End*/
+/*Content Section Start*/
+#content {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contetLeft > .c_top > h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.c_bottom > button {
+    border: 1px solid #000000;
+    padding: .5rem;
+    border-radius: 30%;
+    color: transparent;
+    margin-top: 20%;
+}
+
+.c_bottom > button > a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem;
+}
+
+.content-one {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.content-two {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+/*Content End*/
+/*anmation start*/
+#animation {
+    width: 100%;
+    height: auto;
+    margin: 5%;
+}
+
+#animation > .animation-slider > .animation-image {
+    display: block;
+    margin: 0 auto;
+}
+
+/*animation end */
+
+#main-content {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.main-container {
+    background-color: #EFF1F2;
+    padding: 1.5rem;
+}
+
+.main-container-header {
+    margin: 4%;
+}
+
+.main-container-header > h2,
+    {
+    padding: 2.5rem;
+    font-size: 2.5rem;
+    margin: 4%;
+}
+
+.main-container-content-top {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main-container-content-top > .m-one,
+.m-two,
+.m-three {
+    margin: 4%;
+}
+
+.main-container-content-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container-content-bottom > .m-one,
+.m-two,
+.m-three {
+    margin: 4%;
+}
+
+.main-container > .bottom {
+    text-align: center;
+}
+
+.main-container > .bottom > button {
+    border: 1px solid #0000000;
+    border-radius: 35%;
+    padding: 1rem;
+}
+
+.main-container > .bottom > button > a {
+    text-decoration: none;
+}
+
+/*articel start*/
+#article {
+    width: 90%;
+    margin: auto;
+    background-color: #EFF1F2;
+}
+
+#article > .articel_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+}
+
+.article-one {
+    padding: 1.5rem;
+}
+
+.article-one > h2,
+h4,
+button {
+    margin: 1.5rem;
+}
+
+.article-one > button {
+    border: 1px solid #000000;
+    border-radius: 35%;
+    padding: 1rem;
+}
+
+.article-one > button > a {
+    text-decoration: none;
+}
+
+.article-two {
+    padding: 1.5rem;
+}
+
+.article-two > article_colum {}
+
+.article-two > article_colum > h4,
+p {
+    margin: 1.5rem;
+}
+
+.article-three {
+    padding: 1.5rem;
+}
+
+.article-three > .article_three_colum {}
+
+.article-three > .article_three_colum > h4,
+p {
+    margin: 1.5rem;
+}
+
+/*articel end*/
